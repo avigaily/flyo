@@ -1,0 +1,39 @@
+
+html{
+    margin: 0;
+    height: 100vh;
+    background-color: $clr2;
+    color:white;
+    font-family: Raleway;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    padding:0;
+    color: white;
+
+}
+ul{
+    padding:0;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: minmax(15px,1fr) minmax(700px,1240px) minmax(15px,1fr);
+    >*{
+        grid-column: 2;
+    }
+}
+footer{
+    height: 520px;
+    background-color: $clr1;
+}
